@@ -16,10 +16,10 @@ function Seoservices() {
             <h2 className="text-4xl font-bold ">
               ACHIEVE TOP SEARCH RANKINGS WITH OUR SEO SERVICES
             </h2>
-            <p className="leading-relaxed mb-4 text-lg">
+            <p className=" text-justify mb-4 text-lg">
                Boost your online visibility and drive organic traffic with our top-notch SEO service. Our experts will optimize your website for search engines, ensuring you reach your target audience and outshine the competition. Take your digital presence to new heights today!
             </p>
-          <Textlink text={"Contact Us!"} href={"/pages/Contact"} className={"font-bold"} />
+          {/* <Textlink text={"Contact Us!"} href={"/pages/Contact"} className={"font-bold"} /> */}
             
           </div>
 
@@ -52,10 +52,10 @@ function Seoservices() {
             <h2 className="text-4xl font-bold ">
              DRIVE TARGETED TRAFFIC AND BOOST CONVERSIONS
             </h2>
-            <p className="leading-relaxed mb-4 text-lg">
+            <p className=" text-justify mb-4 text-lg">
               With Elevate Clicks cutting-edge SEO techniques and industry knowledge, businesses can expect to climb the search engine rankings and attract targeted organic traffic. Our team of experienced professionals understands the ever-evolving algorithms and trends, ensuring that your website remains optimized for maximum visibility.
             </p>
-            <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} />
+            {/* <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} /> */}
 
           </div>
 
@@ -166,7 +166,7 @@ function Seoservices() {
       <div class="container pb-12 pt-24 mx-auto ">
         <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
           <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-            <p className="text-sm uppercase">Who we work with ?</p>
+            {/* <p className="text-sm uppercase">Who we work with ?</p> */}
             <h2 class="text-4xl font-bold ">
               CUSTOMIZED SOLUTIONS TO YOUR BUSINESS GOALS
             </h2>
@@ -184,7 +184,7 @@ function Seoservices() {
       <div class="container pb-12 mx-auto ">
         <div class="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
           <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
-            <div className="flex flex-col gap-3 p-4 bg-white text-black rounded-lg">
+            <div className="flex flex-col mb-4 text-lg text- rounded-lg">
               <h2 class="text-xl font-bold ">
                 OFF-PAGE OPTIMIZATION
               </h2>

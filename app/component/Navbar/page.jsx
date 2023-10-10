@@ -118,12 +118,12 @@ function Navbar() {
                               <li>
                                 <Link href="/pages/socialservices"
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  > Social Services</Link>
+                                  > Social Media Managment</Link>
                               </li>
                               <li>
                                 <Link href={"/pages/analyst"}
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  >Analyst</Link>
+                                  >Analytic Reporter</Link>
                               </li>
                             </ul>
                           </div>
@@ -135,12 +135,7 @@ function Navbar() {
               </div>
               {/* dropdown */}
             </div>
-            <Link
-              href="/"
-              className="font-semibold flex gap-1 items-center group/Home"
-            >
-              Portfolio
-            </Link>
+           
             <Link
               href="/pages/about"
               className="font-semibold flex gap-1 items-center group/Home"

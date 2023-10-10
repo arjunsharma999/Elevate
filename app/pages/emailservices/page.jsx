@@ -13,17 +13,17 @@ function Emailservices() {
             <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%]  mb-6">
               Boost Your ROI With The Industry-Leading Email Marketing Platform
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-lg">
+            <p className="lg:w-2/3 mx-auto  text-lg">
               Are you ready to take your email marketing efforts to the next
               level? Look no further! Elevate Clicks is here to transform the
               way you engage with your audience, boost your brands visibility,
               and drive remarkable results.
             </p>
-            <Textlink
+            {/* <Textlink
               text={"Learn More"}
               href={"/pages/contact"}
               className={"font-bold"}
-            />
+            /> */}
           </div>
         </div>
       </section>
@@ -54,34 +54,34 @@ function Emailservices() {
               <h2 className="text-4xl font-bold ">
                 EMAIL MARKETING LIKE NEVER BEFORE 
               </h2>
-              <p className="leading-relaxed mb-3 text-lg">
+              <p className="text-justify  mb-3 text-lg">
                 Email marketing isnt just about sending messages; its about
                 connecting with your audience, driving conversions, and
                 achieving your business goals.
               </p>
-              <p className="leading-relaxed mb-3 text-lg">
+              <p className="text-justify  mb-3 text-lg">
                 Thats where our Email Marketing Service shines. Were not just
                 another agency; were your trusted partner in this digital
                 journey.
               </p>
-              <p className="leading-relaxed mb-3 text-lg">
+              <p className="text-justify mb-3 text-lg">
                 &#8594; With personalized, data-driven strategies, we craft compelling
                 campaigns that captivate your audience.
               </p>
-              <p className="leading-relaxed mb-3 text-lg">
+              <p className="text-justify  mb-3 text-lg">
                 &#8594; Our automation expertise saves your time and boosts results. We
                 understand that one size doesnt fit all, so we segment your
                 audience strategically.
               </p>
-              <p className="leading-relaxed mb-3 text-lg">
+              <p className="text-justify  mb-3 text-lg">
                 &#8594; Trust is paramount, and we ensure strict compliance with privacy
                 standards.
               </p>
-              <Textlink
+              {/* <Textlink
                 text={"Learn more"}
                 href={"/"}
                 className={"font-bold"}
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ function Emailservices() {
             <h2 className="text-4xl font-bold  tracking-widest">
                 Leading Email Marketing Platform Services 
               </h2>
-              <p className="leading-relaxed mb-4">
+              <p className="text-justify mb-4">
                 When you choose Elevate Clicks as your email marketing partner, youre not just hiring a service; <br/>
                 youre gaining a dedicated team invested in your success. <br/>
                 Were with you every step of the way, from strategy development to campaign execution and beyond.
@@ -147,7 +147,7 @@ function Emailservices() {
             <h1 className="sm:text-5xl text-4xl font-extrabold lg:w-[60%]  mb-6">
             WHAT MAKES US EXPERT ?
             </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-lg">
+            <p className="lg:w-2/3 mx-auto text-justify  text-lg">
             What sets us apart as email marketing experts? Its our commitment to excellence in every aspect. <br/>
             Our team combines a mastery of design, crafting visually stunning templates, with a dedication to personalized content that resonates with your audience. Were subject line connoisseurs, curating the perfect hook for each campaign. And we believe in the power of automation, streamlining processes to save your time while delivering outstanding results. <br/>
             Its this blend of creativity, personalization, strategy, and efficiency that makes us the go-to choice for email marketing success. Trust us to elevate your campaigns and engage your audience like never before.

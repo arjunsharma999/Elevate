@@ -15,9 +15,9 @@ function Socialmedia() {
               <h2 className="text-4xl font-bold  tracking-widest">
                BOOST YOUR BRAND WITH OUR SOCIAL MEDIA MASTERY
               </h2>
-              <p className="leading-relaxed mb-4 text-lg">Unlock the full potential of your brand with our Social Media Management Service, We craft engaging content, build meaningful connections, and drive results. Elevate your online presence today!
+              <p className="text-justify mb-4 text-lg">Unlock the full potential of your brand with our Social Media Management Service, We craft engaging content, build meaningful connections, and drive results. Elevate your online presence today!
               </p>
-            <Textlink text={"Contact Us!"} href={"/pages/Contact"} className={"font-bold"} />
+            {/* <Textlink text={"Contact Us!"} href={"/pages/Contact"} className={"font-bold"} /> */}
 
             </div>
 
@@ -48,7 +48,7 @@ function Socialmedia() {
               <h2 className="text-4xl font-bold ">
               SOCIAL MEDIA MARKETING AT YOUR SERVICE
               </h2>
-              <p className="leading-relaxed mb-4 text-lg">Social media platforms are diverse, and each has its own unique audience and best practices. A professional service has the expertise to navigate these intricacies and optimize your presence on each platform.
+              <p className="text-justify mb-4 text-lg">Social media platforms are diverse, and each has its own unique audience and best practices. A professional service has the expertise to navigate these intricacies and optimize your presence on each platform.
               </p>
             </div>
 
@@ -84,17 +84,16 @@ function Socialmedia() {
               <h2 className="text-4xl font-bold my-4">
               WHY YOU NEED A SOCIAL MEDIA MANAGER ?
               </h2>
-              <p className="leading-relaxed mb-4 text-lg">&#8226; Social media isn’t your thing.
+              <p className="text-justify mb-4 text-lg">&#8226; Social media isn’t your thing.
 Hand it over to those who are trained in the industry so you can focus on other areas of your business !
-              </p>
-              <p className="leading-relaxed mb-4 text-lg">&#8226; You don’t have the time on your hands.
+              &#8226; You don’t have the time on your hands.
 if you simply don’t have time for social media thing hand it over to experts who can help you out to be visible on social media platforms
-              </p>
-              <p className="leading-relaxed mb-4 text-lg">&#8226; You need to improve social media engagement
+              
+              &#8226; You need to improve social media engagement
 Social media manager are trained and make sure to increase the rate of engagement with your audience.
 
               </p>
-              <p className="leading-relaxed mb-4 text-lg">&#8226; You need a clear strategy to be created
+              <p className="text-justify mb-4 text-lg">&#8226; You need a clear strategy to be created
 Planning and organizing your content to ensure you get the highest engagement is one of our main rules.
               </p>
 
@@ -159,7 +158,7 @@ Planning and organizing your content to ensure you get the highest engagement is
               <p className="leading-relaxed mb-4 text-lg">
                 &#10004;Content Variety: Mix text, images, videos, and stories for diverse content.
               </p>
-            <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} />
+            {/* <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} /> */}
 
             </div>
 

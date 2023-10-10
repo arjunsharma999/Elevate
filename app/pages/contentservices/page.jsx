@@ -14,7 +14,7 @@ function Contentservices() {
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-4">
               <h2 className="text-4xl font-bold ">CONTENT IS THE HEART OF DIGITAL COMMUNICATION
               </h2>
-              <p className="leading-relaxed mb-4 text-xl">Were not just creating content; were crafting conversations. Dive into our world of words, where stories resonate, and connections flourish. Unleash the power of meaningful content.
+              <p className="text-justify mb-4 text-xl">Were not just creating content; were crafting conversations. Dive into our world of words, where stories resonate, and connections flourish. Unleash the power of meaningful content.
               </p>
             <Textlink text={"Contact Us"} href={"/"} className={"font-bold"} />
 
@@ -46,16 +46,14 @@ function Contentservices() {
         <div class="container pb-12 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-4">
-                <p className="text-sm uppercase">what we  provide  ?</p>
+                {/* <p className="text-sm uppercase">what we  provide  ?</p> */}
                 <h2 class="text-4xl font-bold"> HOW CONTENT MARKETING CAN BE A GAME CHANGER
               </h2>
-                <p class="leading-relaxed mb-4 text-lg">In the digital age, your online presence is your business card. Content marketing allows you to carve out a unique space in the digital landscape.
+                <p class="text-justify mb-4 text-lg">In the digital age, your online presence is your business card. Content marketing allows you to carve out a unique space in the digital landscape.
+                When you offer informative, well-researched content, you position yourself as an industry authority—a brand that customers can rely on.
                 </p>
-                <p class="leading-relaxed mb-4 text-lg">When you offer informative, well-researched content, you position yourself as an industry authority—a brand that customers can rely on.
-                </p>
-                <p class="leading-relaxed mb-4 text-lg">Todays consumers are savvy and demand more than just a sales pitch. They want to engage with brands that provide value. Its about telling stories, solving problems, and sparking conversations.
-                </p>
-                <p class="leading-relaxed mb-4 text-lg">Content marketing allows you to educate your audience about your products or services. By addressing their pain points and answering their questions, you empower them to make well-informed choices
+                <p class="text-justify mb-4 text-lg">Todays consumers are savvy and demand more than just a sales pitch. They want to engage with brands that provide value. Its about telling stories, solving problems, and sparking conversations.
+                Content marketing allows you to educate your audience about your products or services. By addressing their pain points and answering their questions, you empower them to make well-informed choices
                 </p>
             </div>
 
@@ -193,7 +191,7 @@ function Contentservices() {
               />
             </motion.div>
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">why work with us ?</p>
+              {/* <p className="text-sm uppercase">why work with us ?</p> */}
 
               <h2 className="text-4xl font-bold ">
               BENEFITS TO START YOU’RE CONTENT JOURNEY NOW

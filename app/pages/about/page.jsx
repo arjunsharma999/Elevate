@@ -23,7 +23,7 @@ function page() {
                 At Elevate Clicks, our purpose is crystal clear : we exist to be
                 your guiding light in the ever-shifting digital landscape.
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="text-justify  mb-4">
                 Our team comprises experienced professionals with a deep
                 understanding of all facets of digital marketing, from SEO and
                 SEM to social media, content marketing, and beyond. We stay
@@ -35,18 +35,18 @@ function page() {
                 marketing solutions to address your specific needs and
                 objectives.
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="text-justify  mb-4">
                 Our decisions are fueled by data. We utilize advanced analytics
                 and tracking tools to monitor performance, identify
                 opportunities, and optimize campaigns for maximum ROI.
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="text-justify  mb-4">
                 We believe in open and honest communication. Youll have full
                 visibility into our processes and results, ensuring youre always
                 informed about the progress of your digital marketing
                 initiatives.
               </p>
-              <p className="leading-relaxed mb-4">
+              <p className="text-justify  mb-4">
                 Your success is at the heart of everything we do. We are
                 dedicated to building lasting relationships with our clients,
                 ensuring your satisfaction is our ultimate priority.
