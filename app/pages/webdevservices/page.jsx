@@ -20,7 +20,7 @@ function webdevservices() {
               <p class=" text-justify mb-4 text-lg">
                 We offer the foundation of your dreams. were your secret weapon to stay ahead of the curve. And  were the bridge connecting you to a global audience. Our team doesnt just build websites; we craft online experiences that engage, enthrall, and convert visitors into loyal customers.
               </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+            {/* <Textlink text={"Learn more"} href={"/"} className={"font-bold"} /> */}
 
             </div>
             <motion.div
@@ -56,7 +56,7 @@ function webdevservices() {
               <p class=" text-justify mb-4 text-lg">
               Our vision is to revolutionize the way businesses connect with their audience. We strive to empower brands, big and small, to thrive in the digital landscape by delivering innovative and effective marketing strategies that resonate with the hearts and minds of their target market.
               </p>
-            <Textlink text={"Connect"} href={"/"} className={"font-bold text-gray-500"} />
+            {/* <Textlink text={"Connect"} href={"/"} className={"font-bold text-gray-500"} /> */}
 
               
             </div>

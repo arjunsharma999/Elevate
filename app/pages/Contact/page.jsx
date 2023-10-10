@@ -40,12 +40,14 @@ function about() {
               Have questions or ready to kickstart your marketing journey?
               Reach out to us for a consultation. 
             </p>
+
+            <form action="https://formspree.io/f/xqkvwkba" method="POST">
             <div className="relative mb-4">
-              <label
+              {/* <label
                 for="name"
                 className="leading-7 text-sm text-white font-bold"
               >
-              </label>
+              </label> */}
               <input
                 type="text"
                 id="name"
@@ -96,8 +98,11 @@ function about() {
                 className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
-           <Button text={"Submit"} href={"c"} className={"text-bold w-[50%] flex justify-center"} ></Button>
+           <Button text={"Submit"} className={"text-bold w-[50%] flex justify-center"} ></Button>
+           </form>
+
           </div>
+        
         </div>
       </section>
 
@@ -121,7 +126,7 @@ function about() {
                   src="/About/Instagram.svg"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Instagram</h2>
+                 <a href="https://www.instagram.com/elevateclicks/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" target="_"> <h2 className="text-lg font-bold">Instagram</h2></a>
                 </div>
               </div>
             </div>

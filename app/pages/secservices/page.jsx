@@ -187,10 +187,9 @@ function Seoservices() {
             <div className="flex flex-col mb-4 text-lg text- rounded-lg">
               <h2 class="text-xl font-bold ">
                 OFF-PAGE OPTIMIZATION
+                
               </h2>
-              <p class="leading-relaxed mb-4 text-lg">
-                Building high quality backlinks from reputable websites with influencer outreach to enhance your rankings.
-              </p>
+            
             </div>
             <div className="mt-[2rem] flex flex-col gap-4">
               <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">

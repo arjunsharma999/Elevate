@@ -83,63 +83,78 @@ function page() {
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-5xl title-font font-bold text-white mb-4">
-            OUR VALUE/MORAL/MISSION
+            Our value/moral/mission
             </h1>
-            <section className="text-white body-font overflow-hidden">
-        <div className="container py-24 mx-auto ">
-          <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
-            <motion.div
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              variants={{
-                visible: { opacity: 1, scale: 1 },
-                hidden: { opacity: 0, scale: 0 },
-              }}
-              className="flex items-center"
-            >
-              <img
-                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-                src="/services/about.png"
-                alt="About Image"
-              />
-            </motion.div>
-            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="leading-relaxed mb-4">
-                At Elevate Clicks, our values and morals center around integrity, transparency, and client-centricity.
-              </p>
-              <p className="leading-relaxed mb-4">
-                We prioritize ethical practices, provide honest guidance, and always put our clients success first. 
-              </p>
-              <p className="leading-relaxed mb-4">
-                With a commitment to delivering results with integrity, we forge lasting partnerships built on trust and excellence.
-              </p>
-              <p className="leading-relaxed mb-4">
-                Our mission is clear to make our clients shine. Guided by unwavering values of integrity and transparency, we infuse our work with genuine passion. 
-              </p>
-              <p className="leading-relaxed mb-4">
-                Our commitment to client success is the heartbeat of our agency. 
-              </p>
-              <p className="leading-relaxed mb-4">
-                We dont just love what we do; we thrive on it. Join us on this journey of branding excellence, where every success story is our triumph.
-              </p>
-              <p className="leading-relaxed mb-4">
-                We believe in building authentic connections with our clients, understanding their vision, and delivering results that exceed expectations. 
-              </p>
-              <p className="leading-relaxed mb-4">
-                With every project, we pour our enthusiasm and expertise into creating brands that shine and digital strategies that thrive. 
-              </p>
-              <p className="leading-relaxed mb-4">
-                Experience a partnership where your success is our greatest reward. Lets make your brand stand out in a digital world.
-              </p>
+            <p className=" leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-white text-lg">
+            A technology company is a business that focuses on the development and implementation of technology-based products and services. These companies often employ engineers, scientists, and other specialists dedicated to researching, designing, and creating new technologies.
+            </p>
+            <div className="flex mt-6 justify-center">
+              <div className="w-16 h-1 rounded-full  inline-flex"></div>
             </div>
+          </div>
+          <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+            <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+              <img src="/services/mission.png" alt="" />
+
+              </div>
+              <div className="flex-grow">
+                <h2 className=" text-3xl title-font font-semibold text-white mb-3">
+                  Mission
+                </h2>
+                <p className="leading-relaxed  text-white text-lg">
+                These companies often employ engineers, scientists, and other specialists dedicated to researching, designing, and creating new technologies. They may also specialize in software development, data storage and processing, networking, or other highly advanced technology-related fields. 
+                </p>
+              </div>
+              
+              <Textlink
+                text={"Learn more"}
+                href={"/"}
+                className={"font-bold"}
+              />
+            </div>
+            <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full  mb-5 flex-shrink-0">
+              <img src="/services/idea.png" alt="" />
+
+              </div>
+              <div className="flex-grow flex-col items-center">
+              <h2 className=" text-3xl title-font font-semibold text-white mb-3">
+                  Vision
+                </h2>
+                <p className="leading-relaxed  text-white text-lg">
+                A good vision paints a picture of a desired future state. It appeals to the heart inspiring employees, customers, and other stakeholders to do their best. A good vision rarely changes, remaining constant through different leaders, economic circumstances, and challenges.
+                </p>
+               
+              </div>
+              <Textlink
+                text={"Learn more"}
+                href={"/"}
+                className={"font-bold"}
+              />
+            </div>
+            <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full mb-5 p-3  bg-white flex-shrink-0">
+                <img src="/services/vission.png" alt="" />
+              </div>
+              <div className="flex-grow">
+              <h2 className=" text-3xl title-font font-semibold text-white mb-3">
+                  Moral
+                </h2>
+                <p className="leading-relaxed  text-white text-lg">
+                We believe in quality craftsmanship without the gimmicks. We work with the best to get the best. And then we sell the best, for exactly the price it should cost. It’s the very simple system at the heart of everything we make.
+                </p>
+              </div>
+              
+              <Textlink
+                text={"Learn more"}
+                href={"/"}
+                className={"font-bold"}
+              />
+            </div>
+
           </div>
         </div>
-      </section>
-
-            </div>
-          </div>
       </section>
 
       <Testimonials />
