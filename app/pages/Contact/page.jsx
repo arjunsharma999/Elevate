@@ -138,7 +138,7 @@ function about() {
                   src="/About/Linkedin.svg"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Linkedin</h2>
+                 <a href="https://www.linkedin.com/company/elevateclicks/" target="_"><h2 className="text-lg font-bold">Linkedin</h2></a>
                 </div>
               </div>
             </div>
@@ -150,7 +150,7 @@ function about() {
                   src="/About/Twitter.svg"
                 />
                 <div className="w-full">
-                  <h2 className="text-lg font-bold">Twitter[x]</h2>
+                 <a href="https://twitter.com/ClicksElev20951" target="_"> <h2 className="text-lg font-bold">Twitter[x]</h2> </a>
                 </div>
               </div>
             </div>
