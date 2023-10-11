@@ -41,69 +41,45 @@ function about() {
               Reach out to us for a consultation. 
             </p>
 
-            <form action="https://formspree.io/f/xqkvwkba" method="POST">
-            <div className="relative mb-4">
-              {/* <label
-                for="name"
-                className="leading-7 text-sm text-white font-bold"
-              >
-              </label> */}
-              <input
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Your Name"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2
-                 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
+          
+              <form action='https://formspree.io/f/xzblyzoq' method="POST" target="_">
+  <div class="mb-6">
+    <label for="Name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+    <input type="name" id="Name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Name" required/>
+  </div>
+  <div class="mb-6">
+    <label for="Email id" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email id</label>
+    <input type="Email id" id="email id" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required/>
+  </div>
+  {/* <div class="flex items-start mb-6">
+    <div class="flex items-center h-5">
+      <input id="remember"  value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required/>
+    </div>
+   
+  </div>
+    */}
+   <div className="flex items-start mb-6 ">
+   <div class=" items-center h-50">
+   <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Message</label>
+    <textarea name="message" cols="50" rows="10" type="message" id="message" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
+
+
+   </div>
+   </div>
+
+  <button type="submit"  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+</form>
+
+
+              
+
             </div>
-            <div className="relative mb-4">
-              <label
-                for="email"
-                className="leading-7 text-sm text-white font-bold"
-              >
-              </label>
-              <input
-                type="email"
-                id="email"
-                placeholder="Email"
-                name="email"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label
-                for="email"
-                className="leading-7 text-sm text-white font-bold"
-              >
-              </label>
-              <input
-                type="text"
-                id="subject"
-                placeholder="Subject"
-                name="subject"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div className="relative mb-4">
-              <label
-                for="message"
-                className="leading-7 text-sm text-white font-bold"
-              >
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                placeholder="Project Description"
-                className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              ></textarea>
-            </div>
-           <Button text={"Submit"} className={"text-bold w-[50%] flex justify-center"} ></Button>
-           </form>
+              
+          
 
           </div>
         
-        </div>
+        
       </section>
 
       {/* team */}
