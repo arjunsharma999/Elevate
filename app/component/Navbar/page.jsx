@@ -1,12 +1,25 @@
 "use client";
 import React from "react";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Button from "../../common/Button/Button";
 
 function Navbar() {
   const [showMenu, setShowMenu] = useState(false);
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (showMenu && !event.target.closest(".mobile-menu-container")) {
+        setShowMenu(false);
+      }
+    };
+
+    document.addEventListener("click", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("click", handleOutsideClick);
+    };
+  }, [showMenu]);
 
   return (
     <div className=" drop-shadow-2xl  backdrop-blur-lg shadow-xl bg-[#0505054b] w-full fixed top-0 left-0 py-2 z-50">
@@ -83,6 +96,7 @@ function Navbar() {
                             <ul className="mt-6 space-y-4 text-sm">
                               <li>
                                 <Link href="/pages/webdevservices" 
+                                
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
                                   >Web Development</Link>
                                 
@@ -121,7 +135,7 @@ function Navbar() {
                                   > Social Media Managment</Link>
                               </li>
                               <li>
-                                <Link href={"/pages/analyst"}
+                                <Link href={"/pages/analyst" }
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
                                   >Analytic Reporter</Link>
                               </li>
@@ -138,12 +152,14 @@ function Navbar() {
            
             <Link
               href="/pages/about"
+              onClick={() => setShowMenu(false)}
               className="font-semibold flex gap-1 items-center group/Home"
             >
               About us
             </Link>
             <Link
               href="/pages/Contact"
+              onClick={() => setShowMenu(false)}
               className="font-semibold flex gap-1 items-center group/Home"
             >
               Contact
@@ -184,7 +200,7 @@ function Navbar() {
       <div
         className={`${
           showMenu
-            ? "flex lg:hidden"
+            ? "flex lg:hidden mobile-menu-container"
             : "hidden fixed top-[5%] lg:hidden transition-all duration-700 "
         }`}
       >
@@ -193,7 +209,7 @@ function Navbar() {
             <div className="flex flex-col gap-2 relative">
               <div className="flex gap-2 items-center group/Drops border-yellow-100">
                 <p className="text-normal">
-                <Link href="/pages/">Home</Link>
+                <Link href="/pages/" onClick={() => { setShowMenu(false);}}  >Home</Link>
 
                 </p>
               </div>
@@ -220,37 +236,42 @@ function Navbar() {
             </div>
             <ul className="text-sm flex flex-col gap-1 pl-3">
                               <li>
-                                <Link href="/pages/webdevservices" 
+                                <Link href="/pages/webdevservices"
+                                onClick={() => { setShowMenu(false);}} 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
                                   >Web Development</Link>
                                 
                                   
                               </li>
                               <li>
-                                <Link href="/pages/contentservices
-                                "
+                                <Link href="/pages/contentservices"
+                                onClick={() => { setShowMenu(false);}} 
                                 className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
                                 >Content Management</Link>
 
                               </li>
                               <li>
                               <Link href="/pages/emailservices"
+                              onClick={() => { setShowMenu(false);}} 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
                                   >Email services</Link>
                               
                               </li>
                               <li>
                                 <Link href="/pages/secservices"
+                                onClick={() => { setShowMenu(false);}} 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
                                   > Seo services</Link>
                               </li>
                               <li>
                                 <Link href="/pages/socialservices"
+                                onClick={() => { setShowMenu(false);}} 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
                                   > Social services</Link>
                               </li>
                               <li>
-                                <Link href={"/pages/analyst"}
+                                <Link href="/pages/analyst" 
+                                onClick={() => { setShowMenu(false);}} 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
                                   >Analyst</Link>
                               </li>
@@ -258,13 +279,13 @@ function Navbar() {
             
             <div className="flex gap-4 items-center">
               <p className="text-normal">
-              <Link href="/pages/about">About us</Link>
+              <Link href="/pages/about" onClick={() => setShowMenu(false)} >About us</Link>
               </p>
               {/* <BiChevronDown className="group-hover/Home:rotate-180 duration-300" /> */}
             </div>
             <div className="flex gap-4 items-center">
               <p className="text-normal">
-                <Link href="/pages/Contact">Contact</Link>
+                <Link href="/pages/Contact" onClick={() => setShowMenu(false)} >Contact</Link>
               </p>
 
               {/* <BiChevronDown className="group-hover/Home:rotate-180 duration-300" /> */}
