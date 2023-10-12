@@ -237,17 +237,6 @@ function homepage() {
       {/* Portfolio */}
       <section className="text-white body-font">
         <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
-            {/* <p className=" text-lg uppercase">WORK WITH US</p> */}
-            <h2 className="sm:text-3xl text-4xl  font-bold title-font mb-4 uppercase ">
-              Check our best clients & partners
-            </h2>
-            <p className="lg:w-2/3 mx-auto  text-lg">
-              Adipiscing elit, sed do eiusmod tempor incididunt labore dolore
-              magna aliqua. Ut enim ad minim veniam, quisq wiusmod ut tempor
-              incididunt ut labore et.
-            </p>
-          </div>
           <div className="flex flex-wrap -m-4 sm:w-[80%] mx-auto w-[90%]">
             <div className="p-4 lg:w-1/2 hover:scale-105 transition-all duration-500">
               <div className="h-full flex flex-col items-center justify-start ">
