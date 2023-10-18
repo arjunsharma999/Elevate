@@ -44,7 +44,7 @@ function analiyst() {
         <div class="container pb-12 pt-24 mx-auto ">
           <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
             <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">WORK WITH US</p>
+              {/*<p className="text-sm uppercase">WORK WITH US</p> */}
               <h2 class="text-4xl font-bold  uppercase">
               let’s understand your customer better with analytics
               </h2>
@@ -152,7 +152,7 @@ function analiyst() {
             
           
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              <p className="text-sm uppercase">Our Approach</p>
+             {/* <p className="text-sm uppercase">Our Approach</p>  */}
 
               <h2 className="text-4xl font-bold ">
               HOW WE NAVIGATE THE WORLD OF DATA
@@ -169,7 +169,7 @@ function analiyst() {
               <p className="leading-relaxed mb-4 text-lg">
                 &#10004; The X-Ray Vision: We provide you with the X-ray vision needed to see through the complexity and extract the gems hidden within your data.
               </p>
-            <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} />
+         {/*   <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} />  */}
 
             </div>
             <motion.div
@@ -189,25 +189,6 @@ function analiyst() {
                 alt="About Image"
               />
             </motion.div>
-
-          </div>
-        </div>
-      </section>
-      <section className="text-white body-font my-[3rem]">
-        <div className="container px-5 pt-24 mx-auto">
-          <div className="flex flex-col items-center text-center w-full mb-12 gap-3">
-            <h2 className="text-4xl font-bold  tracking-widest">
-                SOUNDS LIKE WE’RE A PERFECT FIT ?
-              </h2>
-              <p className="leading-relaxed mb-4">
-                At Elevate Clicks, were more than just a digital marketing agency; were your growth partners.<br/> Our unwavering commitment to your success sets us apart.
-              </p>
-              <p className="leading-relaxed mb-4">
-                Discover how our expertise aligns seamlessly with your business goals. <br/>
-                If youre seeking tailored solutions and exceptional results, were the perfect fit. <br/>
-                Contact us today to start a conversation that could transform your businesss digital journey.
-              </p>
-            <Textlink text={"Work With Us!"} href={"/pages/Contact"} className={"font-bold"} />
 
           </div>
         </div>
