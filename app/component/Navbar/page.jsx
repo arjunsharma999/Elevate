@@ -137,7 +137,7 @@ function Navbar() {
                               <li>
                                 <Link href={"/pages/analyst" }
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  >Analytic Reporter</Link>
+                                  >Analytical Report</Link>
                               </li>
                             </ul>
                           </div>
@@ -254,14 +254,14 @@ function Navbar() {
                               <Link href="/pages/emailservices"
                               onClick={() => { setShowMenu(false);}} 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  >Email services</Link>
+                                  >Email Services</Link>
                               
                               </li>
                               <li>
                                 <Link href="/pages/secservices"
                                 onClick={() => { setShowMenu(false);}} 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  > Seo services</Link>
+                                  > SEO Services</Link>
                               </li>
                               <li>
                                 <Link href="/pages/socialservices"
@@ -273,7 +273,7 @@ function Navbar() {
                                 <Link href="/pages/analyst" 
                                 onClick={() => { setShowMenu(false);}} 
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  >Analyst</Link>
+                                  >Analytical Report</Link>
                               </li>
                             </ul>
             
