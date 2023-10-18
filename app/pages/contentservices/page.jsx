@@ -16,7 +16,7 @@ function Contentservices() {
               </h2>
               <p className="text-justify mb-4 text-xl">Were not just creating content; were crafting conversations. Dive into our world of words, where stories resonate, and connections flourish. Unleash the power of meaningful content.
               </p>
-            <Textlink text={"Contact Us"} href={"/"} className={"font-bold"} />
+            <Textlink text={"Contact Us"} href={"/pages/Contact"} className={"font-bold"} />
 
             </div>
 
@@ -190,6 +190,7 @@ function Contentservices() {
                 alt="About Image"
               />
             </motion.div>
+            
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
               {/* <p className="text-sm uppercase">why work with us ?</p> */}
 
@@ -211,7 +212,7 @@ function Contentservices() {
               <p className="leading-relaxed mb-4 text-lg">
                 &#10004; Early Mover Advantage will get you ahead of competitors who may still be on the sidelines, establishing your brands presence before they catch up.
               </p>
-            <Textlink text={"case study"} href={"/"} className={"font-bold"} />
+           {/* <Textlink text={"case study"} href={"/"} className={"font-bold"} /> */}
 
             </div>
 
