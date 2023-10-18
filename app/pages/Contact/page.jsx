@@ -146,7 +146,7 @@ function about() {
               </p>
               <p class="leading-relaxed mb-4 text-lg">Have a question for us or a feedback? Please click on the most appropriate category and fill out the form and well get back to you as soon as possible.
               </p>
-            <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />
+         {/*   <Textlink text={"Learn more"} href={"/"} className={"font-bold"} />  */}
 
             </div>
             <motion.div
