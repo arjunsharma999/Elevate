@@ -8,79 +8,79 @@ import Textlink from "../../common/Button/Textlink"
 function Seoservices() {
   return (
     <div>
-    {/* first sction */}
-    <section className="text-white body-font overflow-hidden">
-      <div className="container px-5 pb-12 pt-24 mx-auto ">
-        <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
-          <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-            <h2 className="text-4xl font-bold ">
-              ACHIEVE TOP SEARCH RANKINGS WITH OUR SEO SERVICES
-            </h2>
-            <p className=" text-justify mb-4 text-lg">
-               Boost your online visibility and drive organic traffic with our top-notch SEO service. Our experts will optimize your website for search engines, ensuring you reach your target audience and outshine the competition. Take your digital presence to new heights today!
-            </p>
-          {/* <Textlink text={"Contact Us!"} href={"/pages/Contact"} className={"font-bold"} /> */}
-            
+      {/* first sction */}
+      <section className="text-white body-font overflow-hidden">
+        <div className="container px-5 pb-12 pt-24 mx-auto ">
+          <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
+              <h2 className="text-4xl font-bold ">
+                ACHIEVE TOP SEARCH RANKINGS WITH OUR SEO SERVICES
+              </h2>
+              <p className=" text-justify mb-4 text-lg">
+                Boost your online visibility and drive organic traffic with our top-notch SEO service. Our experts will optimize your website for search engines, ensuring you reach your target audience and outshine the competition. Take your digital presence to new heights today!
+              </p>
+              {/* <Textlink text={"Contact Us!"} href={"/pages/Contact"} className={"font-bold"} /> */}
+
+            </div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                visible: { opacity: 1, scale: 1 },
+                hidden: { opacity: 0, scale: 0 },
+              }}
+              className="flex items-center "
+            >
+              <img
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                src="/services/paidads-one.png"
+                alt="About Image"
+              />
+            </motion.div>
           </div>
-
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            variants={{
-              visible: { opacity: 1, scale: 1 },
-              hidden: { opacity: 0, scale: 0 },
-            }}
-            className="flex items-center"
-          >
-            <img
-              className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-              src="/services/paidads-one.png"
-              alt="About Image"
-            />
-          </motion.div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="text-white body-font overflow-hidden">
-      <div className="container px-5 pb-12 mx-auto ">
-        <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
-          <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 ">
-            <p className="text-sm uppercase">Who we work with ?</p>
-            <h2 className="text-4xl font-bold ">
-             DRIVE TARGETED TRAFFIC AND BOOST CONVERSIONS
-            </h2>
-            <p className=" text-justify mb-4 text-lg">
-              With Elevate Clicks cutting-edge SEO techniques and industry knowledge, businesses can expect to climb the search engine rankings and attract targeted organic traffic. Our team of experienced professionals understands the ever-evolving algorithms and trends, ensuring that your website remains optimized for maximum visibility.
-            </p>
-            {/* <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} /> */}
+      <section className="text-white body-font overflow-hidden">
+        <div className="container px-5 pb-12 mx-auto ">
+          <div className="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 ">
+              <p className="text-sm uppercase">Who we work with ?</p>
+              <h2 className="text-4xl font-bold ">
+                DRIVE TARGETED TRAFFIC AND BOOST CONVERSIONS
+              </h2>
+              <p className=" text-justify mb-4 text-lg">
+                With Elevate Clicks cutting-edge SEO techniques and industry knowledge, businesses can expect to climb the search engine rankings and attract targeted organic traffic. Our team of experienced professionals understands the ever-evolving algorithms and trends, ensuring that your website remains optimized for maximum visibility.
+              </p>
+              {/* <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} /> */}
 
+            </div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                visible: { opacity: 1, scale: 1 },
+                hidden: { opacity: 0, scale: 0 },
+              }}
+              className="flex items-center"
+            >
+              <img
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                src="/services/paid-one.png"
+                alt="About Image"
+              />
+            </motion.div>
           </div>
-
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            variants={{
-              visible: { opacity: 1, scale: 1 },
-              hidden: { opacity: 0, scale: 0 },
-            }}
-            className="flex items-center"
-          >
-            <img
-              className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
-              src="/services/paid-one.png"
-              alt="About Image"
-            />
-          </motion.div>
         </div>
-      </div>
-    </section>
+      </section>
 
-  {/*
+      {/*
     <section className="body-font">
       <div className="container px-5 py-24 mx-auto bg-white bg-opacity-10">
         <div className="lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3 text-center md:w-[80%] mx-auto">
@@ -161,116 +161,85 @@ function Seoservices() {
       </div>
     </section>  */ }
 
-    {/* last section */}
-    <section class="text-white body-font overflow-hidden">
-      <div class="container pb-12 pt-24 mx-auto ">
-        <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
-          <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-            {/* <p className="text-sm uppercase">Who we work with ?</p> */}
-            <h2 class="text-4xl font-bold ">
-              CUSTOMIZED SOLUTIONS TO YOUR BUSINESS GOALS
-            </h2>
-          </div>
-          <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-center ">
-            <p className="text-lg">
-              From keyword research and on-page optimization to link building and content creation, our comprehensive approach guarantees long-term success and lasting impact with proven SEO techniques
-            </p>
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="text-white body-font overflow-hidden">
-      <div class="container pb-12 mx-auto ">
-        <div class="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
-          <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
-            <div className="flex flex-col mb-4 text-lg text- rounded-lg">
-              <h2 class="text-xl font-bold ">
-                OFF-PAGE OPTIMIZATION
-                
+      {/* last section */}
+      <section class="text-white body-font overflow-hidden">
+        <div class="container pb-12 pt-24 mx-auto ">
+          <div class="lg:w-[80%] mx-auto flex flex-wrap items-center justify-between ">
+            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
+              {/* <p className="text-sm uppercase">Who we work with ?</p> */}
+              <h2 class="text-4xl font-bold ">
+                CUSTOMIZED SOLUTIONS TO YOUR BUSINESS GOALS
               </h2>
-            
             </div>
-            <div className="mt-[2rem] flex flex-col gap-4">
-              <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
-                <p className="text-lg font-bold">ON-PAGE OPTIMIZATION</p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="35"
-                  height="20"
-                  viewBox="0 0 41 24"
-                  fill="none"
-                >
-                  <path
-                    d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <hr className="py-[2px] w-[90%]" />
-            </div>
-            <div className="mt-[2rem] flex flex-col gap-4">
-              <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
-                <p className="text-lg font-bold">KEYWORD RESEARCH</p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="35"
-                  height="20"
-                  viewBox="0 0 41 24"
-                  fill="none"
-                >
-                  <path
-                    d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <hr className="py-[2px] w-[90%]" />
-            </div>
-            <div className="mt-[2rem] flex flex-col gap-4">
-              <div className="flex justify-between items-center w-[60%] hover:w-[70%] transition duration-500">
-                <p className="text-lg font-bold">SEO AUDITS AND REPORTING</p>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="35"
-                  height="20"
-                  viewBox="0 0 41 24"
-                  fill="none"
-                >
-                  <path
-                    d="M28.8965 0.956055L27.014 2.87052L35.0007 10.9928H0.287109V10.9929V13.7003V13.7004H35.0005L27.014 21.8225L28.8965 23.7369L40.097 12.3465L28.8965 0.956055Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <hr className="py-[2px] w-[90%]" />
+            <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex justify-center ">
+              <p className="text-lg">
+                From keyword research and on-page optimization to link building and content creation, our comprehensive approach guarantees long-term success and lasting impact with proven SEO techniques
+              </p>
 
             </div>
           </div>
-
-          <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            variants={{
-              visible: { opacity: 1, scale: 1 },
-              hidden: { opacity: 0, scale: 0 },
-            }}
-            className="flex items-center pt-4"
-          >
-            <img
-              className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] lg:mt-0"
-              src="/services/seotwo.png"
-              alt="About Image"
-            />
-          </motion.div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="text-white body-font overflow-hidden">
+        <div class="container pb-12 mx-auto ">
+          <div class="lg:w-[80%] mx-auto flex flex-wrap items-start justify-between ">
+            <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 ">
+              <div className="flex flex-col text-lg text- rounded-lg  bg-gray-500  ">
+                <h2 class="text-xl font-bold m-3">
+                  OFF-PAGE OPTIMIZATION
+                  <p className="text-sm mt-8">Building high quality backlinks from reputable websites with influencer outreach to enhance your rankings.</p>
 
-    <Testimonials />
-  </div>
+                </h2>
+
+              </div>
+              <div className="mt-[2rem] flex flex-col gap-4 ">
+                <div className="flex justify-between items-center w-full transition duration-500">
+                  <p className="text-lg font-bold">ON-PAGE OPTIMIZATION</p>
+
+                </div>
+                <hr className="py-[2px] w-[90%]" />
+              </div>
+              <div className="mt-[2rem] flex flex-col gap-4">
+                <div className="flex justify-between items-center w-full transition duration-500">
+                  <p className="text-lg font-bold">KEYWORD RESEARCH</p>
+
+                </div>
+
+                <hr className="py-[2px] w-[90%]" />
+              </div>
+              <div className="mt-[2rem] flex flex-col gap-4">
+                <div className="flex justify-between items-center w-full transition duration-500">
+                  <p className="text-lg font-bold">SEO AUDITS AND REPORTING</p>
+
+                </div>
+                <hr className="py-[2px] w-[90%]" />
+
+              </div>
+            </div>
+
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              variants={{
+                visible: { opacity: 1, scale: 1 },
+                hidden: { opacity: 0, scale: 0 },
+              }}
+              className="flex items-center "
+            >
+              <img
+                className="w-[20rem] lg:w-[30rem] lg:ml-[-2rem] mt-[5rem] lg:mt-0"
+                src="/services/seotwo.png"
+                alt="About Image"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      <Testimonials />
+    </div>
   );
 }
 
