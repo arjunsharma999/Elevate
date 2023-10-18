@@ -142,20 +142,20 @@ Planning and organizing your content to ensure you get the highest engagement is
             </motion.div>
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
 
-              <h2 className="text-4xl font-bold ">
+              <h2 className=" text-4xl font-bold ">
               THE EASIEST WAY TO MANAGE YOUR BRANDS ON SOCIAL MEDIA
               </h2>
               <p className="leading-relaxed mb-4 text-lg">
-                &#10004;Consistent Posting: Regular, scheduled content keeps your audience engaged.
+                &#10002;Consistent Posting: Regular, scheduled content keeps your audience engaged.
               </p>
               <p className="leading-relaxed mb-4 text-lg">
-                &#10004; Audience Analysis: Understanding your audiences preferences informs content strategies.
+                &#10002; Audience Analysis: Understanding your audiences preferences informs content strategies.
               </p>
               <p className="leading-relaxed mb-4 text-lg">
-                &#10004; Trend Awareness: Stay updated on platform trends for relevance.
+                &#10002; Trend Awareness: Stay updated on platform trends for relevance.
               </p>
               <p className="leading-relaxed mb-4 text-lg">
-                &#10004;Content Variety: Mix text, images, videos, and stories for diverse content.
+                &#10002;Content Variety: Mix text, images, videos, and stories for diverse content.
               </p>
             {/* <Textlink text={"Book a Demo"} href={"/pages/Contact"} className={"font-bold"} /> */}
 
