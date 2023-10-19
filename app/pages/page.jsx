@@ -119,7 +119,7 @@ function homepage() {
                 <p className=" text-lg leading-relaxed">
                   We create website that clearly reflects your expertise, story, and values
                 </p>
-                <Textlink text={"Learn more"} href={"/pages/webdevservices"} className={"font-bold text-gray-500"} />
+                <Textlink text={"Learn more"} href={"/pages/Webdevservices"} className={"font-bold text-gray-500"} />
 
               </a>
             </div>
@@ -143,7 +143,7 @@ function homepage() {
                 <p className=" text-lg text-justify ">
                   Engage your audience and grow your brands influence through our creative and impactful social media campaigns.
                 </p>
-                <Textlink text={"Learn more"} href={"/pages/socialservices"} className={"font-bold text-gray-500"} />
+                <Textlink text={"Learn more"} href={"/pages/Contact"} className={"font-bold text-gray-500"} />
 
               </a>
             </div>
@@ -167,19 +167,19 @@ function homepage() {
                 <p className="text-justify ">
                   Tell your brand story effectively and captivate your audience with our compelling and shareable content creation and distribution services.
                 </p>
-                <Textlink text={"Learn more"} href={"/pages/contentservices"} className={"font-bold text-gray-500"} />
+                <Textlink text={"Learn more"} href={"/pages/contact"} className={"font-bold text-gray-500"} />
 
               </a>
             </div>
             <div className="p-4 md:w-1/3 sm:w-1/2 w-full hover:scale-105 transition-all duration-500">
               <a href="../pages/paidads" className="border-2 border-gray-200 px-4 py-6 rounded-lg text-start h-[300px] flex flex-col justify-center gap-3">
                 <h2 className="title-font font-bold text-2xl ">
-                  Analytical Report
+                  PAID ADVERTISING
                 </h2>
                 <p className="text-justify ">
-                  Analytical reports are not just data summaries, theyre your compass in the data-driven world. They illuminate your path, helping you navigate the complexities of business with clarity and confidence.
+                  Optimize your ad campaigns and maximize conversions through our targeted and cost-effective strategies.
                 </p>
-                <Textlink text={"Learn more"} href={"/pages/analyst"} className={"font-bold text-gray-500"} />
+                <Textlink text={"Learn more"} href={"/pages/Contact"} className={"font-bold text-gray-500"} />
 
               </a>
             </div>
@@ -208,6 +208,7 @@ function homepage() {
               />
             </motion.div>
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
+              <p className=" text-lg uppercase">WHO WE WORK WITH ?</p>
 
               <h2 className="text-4xl font-bold  ">
                 BENEFITS TO COLLAB WITH ELEVATE CLICKS

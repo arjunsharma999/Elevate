@@ -136,7 +136,7 @@ function Footer() {
                               <li>
                                 <Link href={"/pages/analyst"}
                                   className="text-gray-100 hover:text-purple-100 transition hover:opacity-75"
-                                  >Analytical Report</Link>
+                                  >Analyst</Link>
                               </li>
               </ul>
             </div>
