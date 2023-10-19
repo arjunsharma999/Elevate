@@ -49,7 +49,7 @@ function Emailservices() {
               />
             </motion.div>
             <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 flex flex-col gap-3">
-              {/* <p className="text-sm uppercase font-semibold">what we do ?</p>  */}
+              <p className="text-sm uppercase font-semibold">what we do ?</p>
 
               <h2 className="text-4xl font-bold ">
                 EMAIL MARKETING LIKE NEVER BEFORE 
